@@ -25,7 +25,7 @@ if __name__ == '__main__':
     sally.pencolor('black')
     sally.begin_fill()
     for i in range(4):
-        sally.forward(50)
+        sally.forward(1)
         sally.right(90)
     sally.end_fill()
     # Move your turtle to a new place on the screen using .goto(x, y)
