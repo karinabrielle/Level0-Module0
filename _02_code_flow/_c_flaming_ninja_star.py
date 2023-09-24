@@ -21,42 +21,42 @@ if __name__ == '__main__':
     flameSize = 130         # the length of the flaming arms
     
     # Make a new turtle
-    
+    bella = turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
-    
+    bella.shape('turtle')
     # Set the turtle width to 2
-    
+    bella.width(2)
     # Set the turtle speed to 0 (fastest)
-    
+    bella.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-        
+    for i in range (1) :
         # Set the turtle .fillcolor() to orange
-        
+        bella.fillcolor('orange')
         # Call the turtle .begin_fill() function
-        
+        bella.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
         #                will turn a full circle)
-        
+        bella.right(360/8)
         # DRAW           Move the turtle 64 pixels
-        
+        bella.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
-        
+        bella.left(40)
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
-        
+        bella.forward(flameSize)
         #                Turn the turtle to the right 170 degrees
-         
+        bella.right(170)
         #                Move the turtle the distance in the variable flameSize (again)
-         
+        bella.forward(flameSize)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
-        
+        bella.right(62)
         #  DRAW          Move the turtle the distance in the variable baseSize
-        
+        bella.forward(baseSize)
         # Call the turtle .end_fill() method
-        
+        bella.end_fill()
     # Hide your turtle so you can see the pattern.
-        
+        bella.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first
     #        picture in the recipe. This is one arm of the ninja star.
 
