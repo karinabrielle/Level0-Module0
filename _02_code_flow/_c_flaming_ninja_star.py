@@ -30,7 +30,7 @@ if __name__ == '__main__':
     bella.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-    for i in range (1) :
+    for i in range (25) :
         # Set the turtle .fillcolor() to orange
         bella.fillcolor('orange')
         # Call the turtle .begin_fill() function
