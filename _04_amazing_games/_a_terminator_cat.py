@@ -91,3 +91,8 @@ if __name__ == '__main__':
     window.onkeypress(key_pressed, 'space')
     window.listen()
     turtle.done()
+# ===================== DO NOT EDIT THE CODE BELOW ============================
+    window.onclick(screen_clicked)
+    window.onkeypress(key_pressed, 'space')
+    window.listen()
+    turtle.done()
