@@ -17,14 +17,17 @@ if __name__ == '__main__':
         answer = simpledialog.askinteger(title="", prompt= "I am thinking of a number that is from 1 to 100, what is my number?")
         # 5. If the guess is correct
             # 6. Win. Use 'sys.exit(0)' to end the program
-        sys.exit(0)
+        if answer == random_num:
+            messagebox.showinfo(title= "", message= "CORRECT!")
+            sys.exit(0)
         # 7. if the guess is high
             # 8. Tell them it's too high
-            if
-                messagebox.showinfo(title= "", message= "your guess is too high!")
+        if answer > random_num:
+            messagebox.showinfo(title= "", message= "your guess is too high!")
         # 9. Else if the guess is low
             # 10. Tell them it's too low
-
+        if answer < random_num:
+           messagebox.showinfo(title= "", message= "your guess is too low!")
     #11. Outside of the loop, tell the user they lost
-
+    messagebox.showinfo(title= "", message= "You lost! :(")
     window.mainloop()
